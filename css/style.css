@@ -32,8 +32,7 @@ section{
 }
 .box{
     display: inline-block;
-    width: 33%;
-    align-content: center;
+    min-width: 30%;
     text-align: center;
 }
 .box img{
@@ -47,10 +46,7 @@ footer{
     color:#fff;
     text-align: center;
 }
-@media(max-width: 600px){
-    .box{
-        width: 100%;
-    }
+@media(max-width: 500px){
     .left{
         float: none;
     }
@@ -61,6 +57,11 @@ footer{
         text-align: center;
     }
     .about img{
+        width: 100%;
+    }
+}
+@media(max-width: 950px){
+    .box{
         width: 100%;
     }
 }
