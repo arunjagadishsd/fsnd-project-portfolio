@@ -1,90 +1,79 @@
 /*default style*/
+
 body {
-    font: 16px/1.5 Arial, Helvetica, sans-serif;
-    padding: 0;
-    margin: 0;
-    background-color: #f4f4f4;
+  font: 16px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
 }
 
 
 /*global*/
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
 .container img {
-    width: 200px;
-    padding: 10px;
-}
-
-
-/*.left is a class to make the contents align next to each other*/
-
-.left {
-    float: left;
+  width: 200px;
+  padding: 10px;
 }
 
 
 /*header*/
 
 header {
-    background: #37474f;
-    color: #fff;
-    border-bottom: 3px solid #ff6d00;
+  background: #37474f;
+  color: #fff;
+  border-bottom: 3px solid #ff6d00;
+  vertical-align: middle;
 }
 
-header #logo {
-    float: left;
+.heading {
+  margin: auto;
 }
 
 
 /*Content*/
 
 section {
-    margin: 20px;
+  margin: 20px;
+}
+
+
+/*.left is a class to make the contents align next to each other*/
+
+.left {
+  float: left;
 }
 
 .box {
-    display: inline-block;
-    min-width: 30%;
-    text-align: center;
+  display: inline-block;
+  text-align: center;
 }
 
 .box img {
-    width: 78px;
+  width: 78px;
 }
 
 footer {
-    border-top: 3px solid #ff6d00;
-    background: #37474f;
-    color: #fff;
-    text-align: center;
+  border-top: 3px solid #ff6d00;
+  background: #37474f;
+  color: #fff;
+  text-align: center;
 }
 
 
 /*meadia queries to make the site responsive*/
 
-@media(max-width: 570px) {
-    header {
-        text-align: center;
-    }
-    .left {
-        float: none;
-    }
-    .container {
-        width: 100%;
-    }
-    .about img {
-        width: 100%;
-    }
-    /*To make the skills section boxes into one coloumn*/
-}
-
-@media(max-width: 950px) {
-    .box {
-        width: 100%;
-    }
+@media(max-width: 576px) {
+  .left {
+    float: none;
+  }
+  .heading {
+    text-align: center;
+  }
+  #logo img {
+    display: block;
+    margin: auto;
+  }
+  .about img {
+    width: 100%;
+  }
 }
