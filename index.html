@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link href="css/style.css" rel="stylesheet">
+  <script src="https://use.fontawesome.com/f2369879a6.js"></script>
 </head>
 
 <body>
@@ -14,8 +15,8 @@
   <header>
     <div class="container">
       <div class="row">
-        <div id="logo" class="col-sm-4">
-          <img src="./img/logo.png" alt="Logo" class=".img-responsive">
+        <div class="col-sm-4">
+          <img src="./img/logo.png" alt="Logo" class=".img-responsive logo">
         </div>
         <div class="col-sm-8 heading text-md-right">
           <h1>Arun Jagadish</h1>
@@ -28,9 +29,13 @@
   <!-- First section to display the About me-->
   <section class="about">
     <div class="container ">
-      <h2>About Me:</h2>
-        <span class="left"><img src="./img/my-pic.png" alt="my picture" class=".img-responsive"></span>
-        <p>Lorem ipsum dolor sit amet, ut erat adhuc movet per. Quo te diam esse dicam, no possit cetero definitiones vix, in
+      <div class="row">
+        <h2>About Me:</h2>
+      </div>
+      <div>
+
+        <p><img src="./img/my-pic.png" alt="my picture" class="left about-img">
+          Lorem ipsum dolor sit amet, ut erat adhuc movet per. Quo te diam esse dicam, no possit cetero definitiones vix, in
           simul necessitatibus sit. Et harum aperiri maluisset vim, at omnium consectetuer mea, no mei tempor sententiae
           eloquentiam. Maiorum nostrum recteque an sea. In duo putant latine praesent, ei atqui volumus vim, cum id erat
           eirmod. Mei ne eros nullam prodesset. Sit eu alienum molestiae intellegat, etiam veniam pericula nec an. Ei dico
@@ -54,25 +59,28 @@
           Esse virtute te duo. Ea eripuit detracto oporteat duo, et eam idque explicari reformidans. Facer temporibus at
           vim, id phaedrum consequat philosophia quo. Eos altera possit noluisse at, sit diam commune reprimique ei, vel
           cu quas discere urbanitas. Ex eos adhuc lorem euismod, qui inani paulo hendrerit an. </p>
-    </div>
+        </div>
+      </div>
   </section>
   <!-- Second section to display the skills I have-->
   <section class="skills">
     <div class="container">
+      <div class="row">
       <h2>Skills:</h2>
+      </div>
         <div class="row">
           <div class="col-md-4 box">
-            <img src="./img/html-logo.png" alt="html logo">
+            <img src="./img/html-logo.png" alt="html logo" class="box-img">
             <h3>HTML</h3>
               <p>Skilled in html</p>
           </div>
           <div class="col-md-4 box">
-            <img src="./img/css-logo.png" alt="html logo">
+            <img src="./img/css-logo.png" alt="html logo"class="box-img">
             <h3>CSS</h3>
               <p>Skilled in css</p>
           </div>
           <div class="col-md-4 box">
-            <img src="./img/javascript-logo.png" alt="html logo">
+            <img src="./img/javascript-logo.png" alt="html logo" class="box-img">
             <h3>JS</h3>
               <p>Skilled in javascript</p>
           </div>
@@ -81,8 +89,19 @@
   </section>
   <!-- Footer-->
   <footer>
-    <div class="container dark">
-      <p>© 2017 Arun Jagadish</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p class="text-sm-left footer-text">© 2017 Arun Jagadish</p>
+        </div>
+        <div class="col-sm-6">
+          <p class="text-sm-right footer-text">
+            <a href="https://www.plus.google.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"> </i></a>
+            <a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"> </i></a>
+          </p>
+        </div>
+      </div>
     </div>
 
   </footer>

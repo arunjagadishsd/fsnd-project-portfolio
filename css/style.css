@@ -9,8 +9,13 @@ body {
 
 
 /*global*/
-
-.container img {
+i{
+  color:#fff;
+}
+i:hover{
+  color:#808080;
+}
+img {
   width: 200px;
   padding: 10px;
 }
@@ -48,32 +53,40 @@ section {
   text-align: center;
 }
 
-.box img {
+.box-img {
   width: 78px;
 }
+/*footer*/
 
-footer {
+
+footer{
   border-top: 3px solid #ff6d00;
   background: #37474f;
   color: #fff;
-  text-align: center;
 }
 
 
 /*meadia queries to make the site responsive*/
 
 @media(max-width: 576px) {
+
   .left {
     float: none;
   }
+
   .heading {
     text-align: center;
   }
-  #logo img {
+
+  .logo {
     display: block;
     margin: auto;
   }
-  .about img {
+
+  .about-img {
     width: 100%;
+  }
+  .footer-text{
+    text-align: center;
   }
 }
