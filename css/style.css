@@ -18,6 +18,8 @@ i:hover{
 img {
   width: 200px;
   padding: 10px;
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -52,10 +54,10 @@ section {
   display: inline-block;
   text-align: center;
 }
-
+/*
 .box-img {
   width: 78px;
-}
+}*/
 /*footer*/
 
 
@@ -63,8 +65,11 @@ footer{
   border-top: 3px solid #ff6d00;
   background: #37474f;
   color: #fff;
+  vertical-align: middle;
 }
-
+.footer-text{
+  margin: 0;
+}
 
 /*meadia queries to make the site responsive*/
 
